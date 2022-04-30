@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my-test-bucket" {
-  bucket = "my-tf-test-bucket-12345678910885522123123123123"
+  bucket = "my-tf-test-bucket-12345678910885522"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "MY bucket"
     Environment = "Dev"
     ManagedBy   = "Terraform"
     Owner       = "Lucas Pontes"
